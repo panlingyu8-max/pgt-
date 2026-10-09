@@ -22,7 +22,8 @@ fill = lambda c: (c.fill.fgColor.rgb if (c.fill is not None and c.fill.fill_type
 R = pd.read_excel(raw); col = lambda p: R.iloc[:, p - 1]
 f3 = np.array([fill(ws.cell(r, 3)) for r in range(2, len(R) + 2)]); f4 = np.array([fill(ws.cell(r, 4)) for r in range(2, len(R) + 2)])
 mr = pd.to_numeric(col(91), errors='coerce'); tr = pd.to_numeric(col(92), errors='coerce'); af_rec = col(10).astype(str).str.strip().ne('nan')
-grp = pd.to_numeric(col(6), errors='coerce'); uid = pkey(col(7), col(4))
+_m = {r: u for r, u in zip(nu(IA['登记号']), nu(IA['患者唯一号'])) if u != 'nan' and r != 'nan'}   # 跨文件匹配：先按登记号从电子档案补患者唯一号
+grp = pd.to_numeric(col(6), errors='coerce'); uid = nu(col(7)).where(nu(col(7)).ne('nan'), nu(col(4)).map(_m).fillna('R' + nu(col(4))))
 nograde = mr.isna() & tr.isna()
 reg = ~((f3 == 'FFFF0000') | (nograde & ~af_rec)) & ~(f4 == 'FFFFFF00') & ((mr >= 1) | (tr >= 1))
 vr = (f4 == 'FFFF0000')

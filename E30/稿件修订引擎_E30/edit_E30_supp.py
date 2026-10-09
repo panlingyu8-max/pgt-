@@ -92,7 +92,7 @@ rev(one('Baseline regurgitation phenotypes were described in 2,322 patients'),
       'For shared patients, the baseline grades of the paired analysis were used in both populations.',
       'Baseline regurgitation phenotypes were described in 3,045 patients with an in-hospital baseline TTE report (baseline phenotype set; Table S1A). '
       'One-month responses were assessed in 844 ablation procedures in 837 patients (paired response set; 7 patients underwent 2 ablations, with each procedure analyzed separately). '
-      'Both analysis sets were drawn from one study population of 3,551 patients and shared 372 patients, for whom the baseline grades of the paired analysis were used in both sets.'),
+      'Both analysis sets were drawn from one study population of 3,551 patients and shared 372 patients; for the 366 whose baseline-set admission was a paired procedure, the baseline grades of the paired analysis were used in both sets.'),
      ('analyzed in parallel within these sampling populations', 'analyzed in parallel within these analysis sets')])
 toc12 = hits('Table S12. Aortic regurgitation as a negative control outcome')[0]
 tc.insert_paragraph_after(toc12, 'Table S13. Baseline factors associated with improvement of both valves in combined MR/TR (post hoc)')
@@ -102,7 +102,7 @@ tc.insert_paragraph_after(tocF1, 'Figure S2. Standardized probabilities of TR im
 # ---------------------------------------------------------------- analysis overview
 ov = [tr for tr in body.iter(qn('w:tr')) if cells(tr) and TXT(cell_par(tr, 0)).startswith('Baseline regurgitation phenotypes (baseline phenotype cohort)')]
 assert len(ov) == 1
-set_cell(ov[0], 3, 'Patients without an in-hospital baseline TTE report not included and not assumed free of regurgitation; registry grades (recorded only with regurgitation) not used for prevalence; grades of the paired analysis used for patients in both sets')
+set_cell(ov[0], 3, 'Patients without an in-hospital baseline TTE report not included and not assumed free of regurgitation; registry grades (recorded only with regurgitation) not used for prevalence; grades of the paired analysis used when the baseline-set admission was a paired procedure')
 jr = [tr for tr in body.iter(qn('w:tr')) if cells(tr) and TXT(cell_par(tr, 0)).startswith('Joint response by extent of biatrial reduction')]
 assert len(jr) == 1
 nr = copy.deepcopy(jr[0])
@@ -112,23 +112,26 @@ set_row(nr, ['Baseline factors and improvement of both valves in combined MR/TR'
 jr[0].addnext(nr); mark_row_ins(nr)
 
 # ================================================================ Table S1A
+for p in hits('Table S1A. Baseline regurgitation phenotypes in patients undergoing a first AF ablation'):
+    rev(p, [('in patients undergoing a first AF ablation', 'in patients undergoing AF ablation')])
 s1a_notes = 'Baseline phenotype cohort: patients with a first AF ablation admission'
 rev(one('A. Cohort assembly', exact=True), [('A. Cohort assembly', 'A. Study population and analysis sets')])
 tA = table_after(one('A. Study population and analysis sets', exact=True)) if False else table_after(hits('A. Cohort assembly')[0] if hits('A. Cohort assembly') else one('A. Study population and analysis sets'))
 rebuild(tA, [('h', ['Step', 'n']),
-    ('m', ['AF ablation patients, January 2020 to September 2024, whose index admission included an in-hospital baseline TTE report', '3,682']),
+    ('m', ['AF ablation patients, January 2020 to September 2024, with an in-hospital baseline TTE report', '3,682']),
     ('m', ['Excluded: prior or concurrent valve surgery (71 from records; 3 identified on review)', '74']),
     ('m', ['Excluded on review: organic valve disease, congenital heart disease, or obstructive hypertrophic cardiomyopathy', '57']),
     ('s', ['Rheumatic heart disease', '12']), ('s', ['Mitral stenosis, mild or moderate', '12']), ('s', ['Aortic stenosis, mild-to-moderate or worse', '1']),
     ('s', ['Valve prolapse', '5']), ('s', ['Obstructive hypertrophic cardiomyopathy', '8']), ('s', ['Unrepaired atrial septal defect with shunt', '16']),
     ('s', ['Residual defect or shunt after repair or closure', '2']), ('s', ['Complex congenital heart disease', '1']),
     ('m', ['Study population', '3,551']),
-    ('m', ['Baseline phenotype set: baseline TTE report graded to estimate prevalence', '3,045']),
+    ('m', ['Baseline phenotype set: first ablation admission in the study period, baseline TTE report graded to estimate prevalence', '3,045']),
     ('s', ['Paroxysmal AF / persistent AF', '1,848 / 1,197']),
     ('m', ['Registry admissions with MR or TR of analysis grade ≥1', '1,445 admissions; 1,419 patients']),
     ('s', ['No 1-month TTE (Table S1B)', '601 admissions; 592 patients']),
     ('m', ['Paired response set', '844 procedures; 837 patients']),
-    ('m', ['Patients in both analysis sets (baseline grades of the paired analysis used)', '372'])],
+    ('m', ['Patients in both analysis sets', '372']),
+    ('s', ['Baseline-set admission was a paired procedure (baseline grades of the paired analysis used)', '366'])],
     {'h': 0, 'm': 1, 's': 8})
 pB = one('B. Patients with and without a confirmed pre-procedural TTE report', exact=True)
 tB = table_after(pB); tc.delete_paragraph(pB._p); tc.mark(tB, 'del')
@@ -177,14 +180,14 @@ VH = {'Variable': ['In paired response set (n=366), %', 'Not in paired response 
 for tr in rows(tH):
     k = TXT(cell_par(tr, 0)).strip(); set_cell(tr, 1, VH[k][0]); set_cell(tr, 2, VH[k][1])
 tc.revise(one(s1a_notes),
-    'Study population: patients undergoing AF ablation between January 2020 and September 2024 whose index (first) ablation admission included an in-hospital baseline TTE report. '
+    'Study population: patients undergoing AF ablation between January 2020 and September 2024 with an in-hospital baseline TTE report. '
     'Prior or concurrent valve replacement or repair was identified from reports, discharge diagnoses, and procedure codes, and organic valve disease, congenital heart disease, and obstructive '
-    'hypertrophic cardiomyopathy were excluded after review by the investigating team; the same criteria applied to both analysis sets. Each patient contributes one admission to the baseline '
+    'hypertrophic cardiomyopathy were excluded after review by the investigating team; the same criteria applied to both analysis sets. Each patient contributes one admission, the first ablation admission in the study period, to the baseline '
     'phenotype set, whereas the paired response set counts procedures. MR and TR were graded on the institutional eight-level scale from the report conclusion (for example, "mild mitral '
     'regurgitation") or, if not stated there, from the reported regurgitant volume in the findings; trace regurgitation and regurgitation not mentioned were recorded as none. Against manual '
     'abstraction of the same 692 reports in the study registry, exact agreement on the eight-level scale was 97.4% (MR) and 97.8% (TR), with linear weighted κ of 0.96 and 0.97. A valve was '
-    'classified as affected at analysis grade ≥1 (very mild or worse), as in the paired response set. For the 372 patients also included in the paired response set, the baseline grades used '
-    'in the paired analysis were applied. Registry grades were recorded only for patients with regurgitation and were therefore not used to estimate prevalence. AF type was taken from the '
+    'classified as affected at analysis grade ≥1 (very mild or worse), as in the paired response set. For the 366 patients whose baseline-set admission was also a paired procedure, the baseline grades used '
+    'in the paired analysis were applied; they differed from the extracted grades in 26. The other 6 patients in both sets contributed a different admission to each set. Registry grades were recorded only for patients with regurgitation and were therefore not used to estimate prevalence. AF type was taken from the '
     'registry or, if unavailable, from clinical records. Prevalence ratios are from modified Poisson regression with robust standard errors. Expected joint prevalence was the product of the '
     'marginal prevalences (marginal) or the sum over patients of the product of individual probabilities from logistic models of MR and of TR on age, sex, and AF type (conditional); 95% CIs '
     'from 1,000 (marginal) and 500 (conditional) bootstrap resamples. Adjusted differences in chamber dimensions are from linear regression on phenotype, age, sex, and AF type with robust '

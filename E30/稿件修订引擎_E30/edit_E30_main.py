@@ -84,19 +84,19 @@ tc.revise(one('We examined early MR/TR responses in parallel in paroxysmal and p
 tc.revise(one('Study populations and parallel analysis framework', exact=True), 'Study population and analysis sets')
 tc.revise(one('This single-center retrospective study at West China Hospital'),
     'This single-center retrospective study at West China Hospital, Sichuan University, included adults (age ≥18 years) undergoing AF ablation between January 2020 and September 2024 '
-    'whose index admission included an in-hospital baseline transthoracic echocardiography (TTE) report (n=3,682). After uniform exclusion of prior or concurrent valve surgery (n=74), '
+    'with an in-hospital baseline transthoracic echocardiography (TTE) report (n=3,682). After uniform exclusion of prior or concurrent valve surgery (n=74), '
     'organic valve disease (n=30), congenital heart disease (n=19), and obstructive hypertrophic cardiomyopathy (n=8), the study population comprised 3,551 patients (Figure 1). '
     'Two analysis sets addressed complementary questions: a baseline phenotype set of 3,045 patients characterized regurgitation burden and coexistence, and a paired response set of '
     '844 procedures in 837 patients assessed 1-month improvement; 372 patients belonged to both sets. Paroxysmal and persistent AF were analyzed separately within each set using common definitions.')
 tc.revise(one('For the baseline phenotype cohort, screening began with 2,425 patients'),
-    'In the baseline phenotype set, MR and TR grades were extracted from the TTE report of the index admission (weighted κ against manual abstraction, 0.96–0.97), and patients were '
+    'The baseline phenotype set included one admission per patient, the first ablation admission in the study period; MR and TR grades were extracted from its TTE report (weighted κ against manual abstraction, 0.96–0.97), and patients were '
     'classified as having neither valve, MR only, TR only, or both affected (analysis grade ≥1; Supplementary Table S1A). Registry grades were recorded only for patients with '
     'regurgitation and were not used to estimate prevalence.')
 tc.revise(one('For the paired response cohort, we identified consecutive patients'),
     'For the paired response set, the study registry identified 1,445 admissions in 1,419 patients of the study population with MR or TR of analysis grade ≥1 (very mild or worse) on the '
     'in-hospital baseline TTE. Admissions without a 1-month TTE (n=601) were excluded and compared with included procedures (Supplementary Table S1B). The set comprised 844 procedures '
     'in 837 patients: isolated MR (n=132), isolated TR (n=325), and combined MR/TR (n=387). Seven patients underwent two ablations, with each procedure analyzed separately. '
-    'For the 372 patients in both sets, paired-analysis baseline grades were used in both.')
+    'When the baseline-set admission was itself a paired procedure (366 of the 372 patients in both sets), paired-analysis baseline grades were used in both sets.')
 for p in hits('Table 2. Baseline clinical, echocardiographic, and procedural characteristics of the paired response cohort'):
     rev(p, [('of the paired response cohort', 'of the paired response set')])
 rev(one('The paroxysmal AF response cohort comprised 343'), [('The paroxysmal AF response cohort comprised', 'The paroxysmal AF group of the paired response set comprised')])
@@ -244,11 +244,11 @@ rev(one('Tables S1A, S1B, S2, S3A–S3D, and S4–S12; Figure S1'), [('S4–S12;
 for p in hits('Figure 1. Study populations.'):
     tc.revise(p, 'Figure 1. Study population and analysis sets.')
 tc.revise(one('Flow of the baseline phenotype cohort, starting from 2,425 patients'),
-    'Flow of the study population: patients undergoing AF ablation between January 2020 and September 2024 whose index admission included an in-hospital baseline TTE report. '
+    'Flow of the study population: patients undergoing AF ablation between January 2020 and September 2024 with an in-hospital baseline TTE report. '
     'Exclusions were applied uniformly before the analysis sets were defined. Organic valve disease comprised rheumatic heart disease, mitral stenosis, aortic stenosis of '
     'mild-to-moderate or worse, and valve prolapse; congenital heart disease comprised unrepaired atrial septal defect with shunt, residual shunt after repair or closure, and complex '
-    'congenital heart disease. The baseline phenotype set comprised patients whose baseline TTE report was graded to estimate prevalence; the paired response set comprised procedures '
-    'with MR and/or TR of analysis grade ≥1 (very mild or worse) on the baseline TTE and a 1-month TTE. Overall, 372 patients belonged to both sets, for whom the baseline grades of the '
+    'congenital heart disease. The baseline phenotype set comprised one admission per patient (the first ablation admission in the study period), whose baseline TTE report was graded to estimate prevalence; the paired response set comprised procedures '
+    'with MR and/or TR of analysis grade ≥1 (very mild or worse) on the baseline TTE and a 1-month TTE. Overall, 372 patients belonged to both sets; for the 366 whose baseline-set admission was a paired procedure, the baseline grades of the '
     'paired analysis were used. Each set was analyzed separately in paroxysmal and persistent AF. Eligible admissions without a 1-month TTE were compared with included procedures in '
     'Supplementary Table S1B. AF indicates atrial fibrillation; HCM, hypertrophic cardiomyopathy; MR, mitral regurgitation; TR, tricuspid regurgitation; TTE, transthoracic echocardiography.')
 rev(one('(A) MR/TR phenotypes (analysis grade ≥1) in the baseline phenotype cohort'),
@@ -262,7 +262,7 @@ rev(one('(A) Mutually adjusted odds ratios (95% CIs) for ≥1-grade MR (all seri
       'g-computation from the model in A across BMI for MR and TR; curves across RA and LV end-diastolic diameters for TR are shown in Supplementary Figure S2.')])
 rev(one('Data are median (interquartile range) or n (%) of observed values. The baseline phenotype cohort counts'),
     [('The baseline phenotype cohort counts patients (first AF ablation admission) and the paired response cohort counts procedures; the two cohorts were assembled separately and shared 357 patients. In the baseline phenotype cohort, chamber dimensions were available from the same report in 2,095 (LAD), 2,289 (LVEDd), 2,098 (RAD), 2,212 (RVD), and 2,295 (LVEF) patients;',
-      'The baseline phenotype set counts patients (index ablation admission) and the paired response set counts procedures; the two sets shared 372 patients. In the baseline phenotype set, chamber dimensions were available from the same report in 2,755 (LAD), 3,009 (LVEDd), 2,755 (RAD), 2,916 (RVD), and 3,009 (LVEF) patients;'),
+      'The baseline phenotype set counts patients (first ablation admission in the study period) and the paired response set counts procedures; the two sets shared 372 patients. In the baseline phenotype set, chamber dimensions were available from the same report in 2,755 (LAD), 3,009 (LVEDd), 2,755 (RAD), 2,916 (RVD), and 3,009 (LVEF) patients;'),
      ('were abstracted only for the paired response cohort,', 'were abstracted only for the paired response set,')])
 
 # ================================================================ global wording (last: tracked_sub leaves earlier revisions intact)
