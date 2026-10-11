@@ -82,7 +82,7 @@ def add_table(rows):
     n = len(rows[0]); widths = col_widths(rows)
     if rows[0][0].startswith(('消融参数','电生理')):
         widths = [5.0] + [(TEXT_W-5.0)/(n-1)]*(n-1)
-    if rows[0][0].startswith(('档位比较点','瓣膜与冠脉')):
+    if rows[0][0].startswith(('档位比较点','瓣膜与冠脉','右室体部参照点')):
         widths = [6.6] + [(TEXT_W-6.6)/(n-1)]*(n-1)
     if rows[0][0].startswith('指标（单位）'):
         widths = [4.4] + [(TEXT_W-4.4)/(n-1)]*(n-1)
@@ -101,7 +101,7 @@ def add_table(rows):
         trpr = t.rows[i]._tr.get_or_add_trPr()
         trpr.append(OxmlElement('w:cantSplit'))
         if i == 0: trpr.append(OxmlElement('w:tblHeader'))
-        if rows[0][0].startswith(('消融参数','电生理','术中项目','消融能量参数','指标（单位）','档位比较点','瓣膜与冠脉')):
+        if rows[0][0].startswith(('消融参数','电生理','术中项目','消融能量参数','指标（单位）','档位比较点','瓣膜与冠脉','右室体部参照点')):
             h=OxmlElement('w:trHeight'); h.set(qn('w:val'),'310'); h.set(qn('w:hRule'),'atLeast'); trpr.append(h)
     grid = t._tbl.tblGrid
     for j,gc in enumerate(grid.findall(qn('w:gridCol'))): gc.set(qn('w:w'), str(int(widths[j]*567)))
@@ -114,7 +114,7 @@ def caption(text):
 
 # header / footer
 hp = sec.header.paragraphs[0]; hp.alignment = WD_ALIGN_PARAGRAPH.RIGHT
-add_runs(hp, '流出道PFA与RF猪实验方案 V3.0', 9)
+add_runs(hp, '流出道PFA与RF猪实验方案 V3.1', 9)
 fp = sec.footer.paragraphs[0]; fp.alignment = WD_ALIGN_PARAGRAPH.CENTER
 for kind, txt in (('begin', None), (None, 'PAGE'), ('end', None)):
     r = fp.add_run(); set_font(r, 9)
