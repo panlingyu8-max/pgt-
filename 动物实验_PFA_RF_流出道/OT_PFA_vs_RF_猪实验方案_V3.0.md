@@ -1,0 +1,241 @@
+# 脉冲电场消融与射频消融猪左、右室流出道损伤比较的动物实验方案
+
+伦理批准号：【待填】
+
+## 1 研究背景
+
+右室流出道（RVOT）是特发性室性早搏最常见的起源部位，左室流出道（LVOT）起源次之，后者包括主动脉窦和左室顶部等部位，射频（RF）消融为标准治疗。RVOT游离壁薄，间隔侧邻近左主干和前降支近段，上方为肺动脉瓣；主动脉窦内消融邻近冠脉开口和主动脉瓣，经冠状静脉系统（心大静脉、前室间静脉）消融左室顶部时，RF功率常受阻抗、温度及邻近冠脉限制。[1] 主动脉窦标测和消融后约0.9%出现临床显著的主动脉瓣反流加重，约12%出现新发轻度反流。[2]
+
+焦点脉冲电场消融（PFA）治疗室早的急性成功率约85%，可伴右束支阻滞和一过性ST段改变；[3] 前瞻性多中心研究中，流出道室早PFA中期成功率在RVOT约94%，在左侧流出道（LVOT及左室顶部）约77%，冠脉痉挛仅见于心大静脉/前室间静脉内放电。[4] PFA病灶大小受接触力、放电次数和电压影响，急性病灶含可逆损伤区。[5–7] 猪左室研究中，7天时乳头肌PFA病灶深于RF，室间隔两者相近；[8] 猪肺动脉窦和主动脉窦焦点PFA可形成病灶，未见冠脉灌注受损或瓣膜功能障碍；[9] 猪心大静脉内焦点PFA在距冠脉约5 mm处形成的心肌病灶最深约4 mm。[10] 同一动物模型中比较PFA与RF在RVOT及LVOT（主动脉窦、心大静脉）的急性和慢性病灶尚无报道。
+
+## 2 研究目的
+
+主要目的：比较PFA与RF在猪RVOT形成的4周病灶深度。
+
+次要目的：比较两种能量在LVOT（左冠窦、心大静脉）的4周病灶深度；比较两种能量在RVOT和LVOT的病灶宽度、透壁率及局部电生理变化；描述两种能量的急性（3小时）病灶及其与4周病灶的差异；描述PFA不同档位的急性病灶深度；评价主动脉瓣、肺动脉瓣、冠脉、传导系统和心包安全性及溶血指标变化。
+
+## 3 实验设计
+
+### 3.1 分组
+
+随机、平行对照设计，按ARRIVE 2.0报告。[11] 健康猪14头，分为两个队列：
+
+- 慢性组10头，按1:1随机分为PFA组和RF组（各5头），饲养28天；[8]
+- 急性组4头，按2:2随机分为PFA组和RF组（各2头），末次消融后3小时安乐死。
+
+每头猪只接受一种能量。冠脉痉挛的系统评价（发生率、时程及机制相关血液指标）不属于本研究范围，拟另立研究；本研究仅将术中冠脉事件作为安全性记录。
+
+### 3.2 消融位点
+
+每头猪设6个位点，两组位点相同：
+
+- RVOT 4个：间隔侧上、下及游离壁上、下。上位点位于肺动脉瓣下5–10 mm，下位点距上位点≥15 mm。
+- LVOT 2个：①左冠窦，经主动脉逆行途径，导管头端位于窦底，ICE确认不贴靠瓣叶，冠脉造影及ICE确认距左冠口≥5 mm；②冠状静脉窦远端（心大静脉近前室间静脉交界处，相当于左室顶部），放电前在导管到位状态下行两正交体位左冠脉造影，确认导管头端距前降支和回旋支≥5 mm。[1,10] 不满足距离要求时沿原结构移至最近的合格点；仍无合格点者不放电，记为技术排除，不以其他部位替代。
+
+选择左冠窦而非右冠窦，以避免与RVOT间隔侧病灶在病理上重叠。按间隔上、间隔下、游离壁上、游离壁下、左冠窦、心大静脉顺序消融，每个位点消融一次，位点间隔≥10分钟；同一动物各位点采用同一PFA档位。急性PFA组完成上述6个位点后，另于右室体部（游离壁中段、下壁及心尖部）以低、中、高档位各消融1个点，档位与位点对应关系随机，点间距≥15 mm。
+
+## 4 实验动物
+
+健康雌性大白猪14头，体重45–55 kg。[7,12] 到达后适应饲养7天，[13] 经检疫及体格检查合格者入组。饲养于具有实验动物使用许可证的设施（许可证号【待填】），自由饮水，定量饲喂。术后单栏饲养至穿刺部位愈合（约3天），之后恢复群养。在同一动物内增加LVOT位点，不增加动物数量。
+
+## 5 设备与消融参数
+
+PFA：惠泰脉冲电场消融系统及压力感知焦点导管【具体型号待填】，[14] 所有位点采用同一档位和固定放电次数，QRS同步放电。[7,15]
+
+RF：强生CARTO 3系统及灌注压力感知导管【具体型号待填，如ThermoCool SmartTouch SF】，灌注流量按说明书。[15] RVOT及左冠窦：功率控制30 W，每个位点60秒。心大静脉：功率控制20 W，60秒；阻抗较放电前升高>10 Ω或出现蒸汽爆裂征象时立即停止，实际放电时间如实记录（研究者设定，需在首头动物中核验）。
+
+RVOT和左冠窦的接触力均为10–20 g，[3] ICE确认稳定贴靠；心大静脉内接触力受血管壁约束，仅记录不设目标值。CARTO用于RVOT、主动脉根部及冠状静脉窦建模、位点标记及电生理测量。导管外径须能进入猪心大静脉，首头动物先行冠状静脉造影评估，不能到位时记为技术排除。
+
+## 6 手术操作
+
+### 6.1 麻醉与监护
+
+术前禁食12小时。替来他明/唑拉西泮（4–6 mg/kg）联合赛拉嗪（1–2 mg/kg）肌注诱导，丙泊酚静注后气管插管，异氟烷（1.5%–2.5%）维持，机械通气。[16] 连续监测心电图、有创动脉压（股动脉鞘接压力换能器）、血氧饱和度、呼气末二氧化碳及体温，胸壁贴除颤电极。PFA致明显骨骼肌收缩时，在充分麻醉下使用肌松药。[17] 不预防性使用抗心律失常药；发生室颤立即电除颤，必要时静注利多卡因或胺碘酮。
+
+### 6.2 血管通路与基线检查
+
+超声引导下穿刺双侧股静脉（ICE；消融导管进入RVOT及冠状静脉窦）和双侧股动脉（一侧8.5F鞘供消融导管逆行至主动脉窦，另一侧6F鞘供测压及冠脉造影）。猪左奇静脉汇入冠状静脉窦，[18] 经股静脉在可调弯鞘支持下进入冠状静脉窦，先行冠状静脉造影显示心大静脉走行；不能到位时改经颈外静脉入路。静注肝素100 U/kg，维持活化凝血时间（ACT）250–350秒。
+
+基线检查：12导联心电图；经胸超声心动图（心功能、心包、主动脉瓣和肺动脉瓣反流）；左、右冠脉两正交体位造影；ICE测量各位点局部壁厚；CARTO构建RVOT、主动脉根部及冠状静脉窦解剖并行电压标测。以强生导管测量6个位点的局部双极电压和单极起搏阈值（脉宽2 ms，最大10 mA）。
+
+### 6.3 消融与冠脉安全管理
+
+记录每次放电参数、接触力、阻抗及心律失常。RVOT位点不常规预防性用药。左冠窦和心大静脉放电前2分钟，两组均经造影导管于左冠脉内注射硝酸甘油200 μg，放电时将造影导管退至升主动脉；该措施仅为安全预防，冠脉痉挛不作为本研究终点。[4,10] 术中出现缺血性ST改变、低血压或室性心律失常时立即造影，冠脉狭窄或闭塞者冠脉内追加硝酸甘油（每次100–200 μg，可重复），记为不良事件。
+
+### 6.4 消融后评估
+
+末次消融后30分钟复测6个位点双极电压和起搏阈值，10 mA起搏不能夺获定义为失夺获；行左、右冠脉造影，排除冠脉闭塞、夹层或血栓；ICE评估心包积液及主动脉瓣、肺动脉瓣反流。急性组于末次消融后3小时深麻醉下安乐死；慢性组拔鞘止血后苏醒。
+
+## 7 血液检测
+
+溶血指标：血浆游离血红蛋白（分光光度法）、结合珠蛋白、乳酸脱氢酶、胆红素、血钾。[19,20]
+
+器官损伤及常规指标：心肌肌钙蛋白I、肌酐、血常规、肝功能、尿常规（含尿血红蛋白）。
+
+采血时点：[20,21] B0，麻醉后、肝素前（全部指标）；B1，末次消融后5–10分钟（游离血红蛋白、结合珠蛋白、血钾）；B2，末次消融后3小时（游离血红蛋白、乳酸脱氢酶、肌钙蛋白I）；慢性组另于术后24小时（游离血红蛋白、结合珠蛋白、乳酸脱氢酶、胆红素、肌钙蛋白I、肌酐、尿常规）、48小时（肌酐、尿常规）及28天（全部指标）采血。术中尿样经导尿管留取。
+
+样本处理：低负压采集，同步记录溶血指数以排除体外溶血；尽快离心，分装后−80 ℃保存，同一动物样本同批检测。结合珠蛋白和肌钙蛋白I采用经猪样本验证的试剂。猪结合珠蛋白为急性期蛋白，术后可因炎症升高，溶血判断以游离血红蛋白为主。[22]
+
+## 8 术后管理
+
+丁丙诺啡（0.01–0.05 mg/kg，肌注，每8–12小时）联合美洛昔康（0.4 mg/kg，每日1次）镇痛72小时；头孢噻呋（3–5 mg/kg，每日1次）抗感染3天。[16] 术后3天每日观察2次，之后每日1次，记录进食、体温、伤口及活动，采用UPAPS评估疼痛，[23] 每周称重。
+
+人道终点：体重下降>15%；拒食>72小时；呼吸困难或心包填塞表现；伤口感染治疗无效；镇痛后持续疼痛；不能站立>24小时。
+
+## 9 28天终末评估
+
+慢性组于术后28±2天麻醉后行12导联心电图、经胸超声（主动脉瓣和肺动脉瓣反流分级）、ICE及冠脉造影。冠脉内注射硝酸甘油后行定量冠脉造影（QCA），测量左主干、前降支、回旋支及右冠脉邻近消融位点节段的直径狭窄率，≥50%定义为显著狭窄。CARTO重建RVOT、主动脉根部及冠状静脉窦电压图并复测6个位点双极电压和起搏阈值。采血后深麻醉下静注氯化钾安乐死。[24]
+
+## 10 病理检查
+
+取心后依据术中CARTO标记、透视及ICE图像和肉眼病灶定位各位点：RVOT位点以肺动脉瓣环距离定位；左冠窦沿主动脉根部纵行剖开；心大静脉自冠状静脉窦口沿血管走行剖开，以前室间静脉交界为参照。
+
+急性组：安乐死后30分钟内取心，6个位点（急性PFA组另含右室体部档位比较点）垂直心内膜切成2 mm厚片，1% TTC 37 ℃孵育20–30分钟后拍照，测量不着色区（不可逆损伤）深度和宽度，单独记录周边可逆损伤区，[5] 随后福尔马林固定行HE染色。
+
+慢性组：10%福尔马林固定48小时，每个位点垂直心内膜（心大静脉位点垂直血管长轴）每隔2 mm连续切片，HE及Masson三色染色，测量病灶最大深度、最大宽度、局部壁厚及是否透壁。左冠窦位点自窦壁内膜面测量深度，并评价瓣叶、窦壁及左冠口损伤；心大静脉位点自静脉壁向心肌测量深度，同时测量静脉与邻近冠脉的距离。邻近冠脉节段（左主干、前降支、回旋支）及主动脉瓣和肺动脉瓣叶行HE及弹力纤维染色，评价内膜增生、中膜损伤、管腔狭窄和瓣叶损伤。
+
+由两名不知分组的病理人员在数字切片上独立测量，取均值；差异>1 mm时由第三人复核。
+
+## 11 观察指标与时间点
+
+主要指标：慢性组RVOT 4周病灶深度。
+
+次要指标：LVOT（左冠窦、心大静脉）4周病灶深度；各部位病灶宽度、深度/壁厚比、透壁率；两种能量的急性病灶深度和宽度及其与4周病灶的差异；PFA低、中、高档位急性病灶深度；消融后30分钟及28天局部电压和起搏失夺获；溶血及器官损伤指标。
+
+安全性指标：主动脉瓣及肺动脉瓣反流新发或加重；28天冠脉显著狭窄及病理冠脉损伤；术中冠脉事件（缺血性ST改变、闭塞或夹层，含处理）；传导阻滞、心包积液、室性心律失常及死亡。
+
+表1　观察时间点
+
+|时间点|心电图|超声/ICE|冠脉造影|电压与起搏阈值|采血|
+|---|---|---|---|---|---|
+|基线（术中）|√|√|√|√|B0|
+|LVOT位点放电前（导管到位）|—|√|√|—|—|
+|消融后5–10分钟|—|—|—|—|B1|
+|消融后30分钟|√|√|√|√|—|
+|消融后3小时|√|—|—|—|B2|
+|术后24、48小时（慢性组）|—|—|—|—|√|
+|术后28天（慢性组）|√|√|√|√|√|
+
+## 12 随机化与盲法
+
+慢性组10头和急性组4头分别按计算机随机表1:1分组。28天电生理分析、造影及QCA判读、病理测量、血液检测及统计分析人员对分组设盲，动物与血样以代码标记。手术参数及血液指标分别按附表1、附表2逐头记录。
+
+## 13 样本量与统计分析
+
+样本量参照同类猪心室消融研究。[8,9] 以动物间标准差1.5 mm计，每组5头在α=0.05、把握度80%时可检出约3.0 mm的RVOT病灶深度差异；LVOT各位点的组间比较为探索性分析，未单独计算把握度。
+
+以每头猪RVOT 4个位点病灶深度均值为主要分析的统计单位。连续变量以均数±标准差表示，组间比较采用Mann-Whitney U检验，并报告均数差及95%置信区间。LVOT两个位点分别报告组间差值及95%置信区间。以病灶为单位的分析采用线性混合模型（能量、部位及其交互作用为固定效应，动物为随机效应）。分类变量采用Fisher精确检验。血液指标比较较基线的变化值。急性组（每组2头）及档位比较点（每档2个病灶）仅作描述性分析。双侧P<0.05为差异有统计学意义。死亡动物纳入安全性分析，未找到的病灶记为缺失，技术排除的位点单独报告。采用R或SPSS软件。
+
+## 14 动物伦理
+
+方案经本单位实验动物福利伦理委员会批准后实施，遵循《实验动物管理条例》及GB/T 35892-2018。[25] 急性组为非苏醒实验；存活动物全程麻醉、术后多模式镇痛并设人道终点；在同一动物内完成RVOT和LVOT位点以减少动物使用；安乐死符合AVMA指南。[24]
+
+## 15 预期结果
+
+明确PFA与RF在RVOT及LVOT（左冠窦、心大静脉）形成的急性和4周病灶深度、宽度及透壁率差异，以及其对主动脉瓣、肺动脉瓣、冠脉和传导系统的影响，为流出道室早消融的能量选择提供依据。
+
+## 参考文献
+
+1. Cronin EM, Bogun FM, Maury P, et al. 2019 HRS/EHRA/APHRS/LAHRS expert consensus statement on catheter ablation of ventricular arrhythmias. Heart Rhythm. 2020;17:e2–e154. doi:10.1016/j.hrthm.2019.03.002
+2. De Cecco D, du Fay de Lavallaz J, Deshmukh A, et al. Incidence of worsening aortic regurgitation after mapping and ablation in the aortic cusps. JACC Clin Electrophysiol. 2026. doi:10.1016/j.jacep.2026.03.039
+3. Della Rocca DG, Cespón-Fernández M, Keelani A, et al. Focal pulsed field ablation for premature ventricular contractions: a multicenter experience. Circ Arrhythm Electrophysiol. 2024;17:e012826. doi:10.1161/CIRCEP.124.012826
+4. Keelani A, et al. Safety and midterm outcome of focal pulsed field ablation for outflow tract premature ventricular contractions: a prospective multicenter study. JACC Clin Electrophysiol. 2026. doi:10.1016/j.jacep.2026.03.032
+5. Nakagawa H, Castellvi Q, Neal R, et al. Effects of contact force on lesion size during pulsed field catheter ablation: histochemical characterization of ventricular lesion boundaries. Circ Arrhythm Electrophysiol. 2024;17:e012026. doi:10.1161/CIRCEP.123.012026
+6. Nakagawa H, et al. Real-time prediction of irreversible lesion size during pulsed field ablation: prospective validation of a novel ablation index based on contact force and number of applications in a swine beating heart model. Circ Arrhythm Electrophysiol. 2025;18:e013911. doi:10.1161/CIRCEP.125.013911
+7. Younis A, Demian J, Bifulco S, et al. Factors influencing lesion titration in a monopolar pulsed-field ablation point catheter: a preclinical study. Circ Arrhythm Electrophysiol. 2026;19:e014157. doi:10.1161/CIRCEP.125.014157
+8. Younis A, Tabaja C, Kleve R, et al. Comparative efficacy and safety of pulsed field ablation versus radiofrequency ablation of idiopathic LV arrhythmias. JACC Clin Electrophysiol. 2024;10:1998–2009. doi:10.1016/j.jacep.2024.04.025
+9. Zheng L, Maimaitijiang P, Chen A, et al. Feasibility and safety of pulsed field ablation at the ventricular outflow tract using focal point catheter. Heart Rhythm. 2025;22:e205–e214. doi:10.1016/j.hrthm.2024.10.059
+10. Chaldoupi SM, Nissen SD, Vriesendorp PA, et al. Focal monopolar pulsed field ablation from within the great cardiac vein for idiopathic premature ventricular contractions after failed radiofrequency ablation. Heart Rhythm. 2024;21:1877–1887. doi:10.1016/j.hrthm.2024.07.002
+11. Percie du Sert N, Hurst V, Ahluwalia A, et al. The ARRIVE guidelines 2.0: updated guidelines for reporting animal research. PLoS Biol. 2020;18:e3000410. doi:10.1371/journal.pbio.3000410
+12. Kawamura I, Reddy VY, Wang BJ, et al. Pulsed field ablation of the porcine ventricle using a focal lattice-tip catheter. Circ Arrhythm Electrophysiol. 2022;15:e011120. doi:10.1161/CIRCEP.122.011120
+13. Obernier JA, Baldwin RL. Establishing an appropriate period of acclimatization following transportation of laboratory animals. ILAR J. 2006;47:364–369. doi:10.1093/ilar.47.4.364
+14. 惠泰医疗（APT Medical）. AForcePlus压力感知脉冲电场消融导管产品资料. https://www.aptmed.com/navigated-catheter/AForcePlus-Force-sensing-PFA-Catheter.html（访问日期2026-10-04；产品资料不替代现场型号说明书）
+15. Kawamura I, Reddy VY, Santos-Gallego CG, et al. Electrophysiology, pathology, and imaging of pulsed field ablation of scarred and healthy ventricles in swine. Circ Arrhythm Electrophysiol. 2023;16:e011369. doi:10.1161/CIRCEP.122.011369
+16. Swindle MM, Smith AC. Swine in the Laboratory: Surgery, Anesthesia, Imaging, and Experimental Techniques. 3rd ed. Boca Raton: CRC Press; 2016.
+17. Xie HY, Li J, Wu J, et al. Comparative study of nanosecond and microsecond pulsed field ablation for pulmonary vein isolation in preclinical models. Europace. 2025;27:euaf171. doi:10.1093/europace/euaf171
+18. Crick SJ, Sheppard MN, Ho SY, et al. Anatomy of the pig heart: comparisons with normal human cardiac structure. J Anat. 1998;193:105–119. doi:10.1046/j.1469-7580.1998.19310105.x
+19. He J, Li K, He C, et al. Evaluation of dose and contact of a circular pulsed field ablation catheter in a porcine model: impact on hemolysis and renal function. Heart Rhythm. 2026;23:405–417. doi:10.1016/j.hrthm.2025.07.042
+20. Coleman KM, Miklavčič D, Vele O, Mountantonakis SE. Intravascular hemolysis and pulsed-field ablation: state of the art review. JACC Clin Electrophysiol. 2026;12:1431–1444. doi:10.1016/j.jacep.2026.04.024
+21. Popa MA, Belykh A, Caluori G, et al. Thromboinflammation and hemolysis after pulsed field ablation with a pentaspline catheter: clinical predictors, renal safety, and rhythm outcomes. Heart Rhythm. 2026;23:e861–e874. doi:10.1016/j.hrthm.2026.01.018
+22. Petersen HH, Nielsen JP, Heegaard PMH. Application of acute phase protein measurements in veterinary clinical chemistry. Vet Res. 2004;35:163–187. doi:10.1051/vetres:2004002
+23. Luna SPL, de Araújo AL, da Nóbrega Neto PI, et al. Validation of the UNESP-Botucatu pig composite acute pain scale (UPAPS). PLoS One. 2020;15:e0233552. doi:10.1371/journal.pone.0233552
+24. American Veterinary Medical Association. AVMA Guidelines for the Euthanasia of Animals: 2020 Edition. 2020.
+25. 国家市场监督管理总局，国家标准化管理委员会. GB/T 35892-2018 实验动物 福利伦理审查指南. 2018.
+
+## 附表1　手术记录表
+
+动物编号：＿＿＿＿　分组：□急性PFA　□急性RF　□慢性PFA　□慢性RF　手术日期：＿＿＿＿　体重：＿＿＿ kg
+
+|术中项目|记录|术中项目|记录|
+|---|---|---|---|
+|麻醉开始/结束时间| |肝素总量（U）| |
+|诱导药物及剂量| |ACT（s，每30 min）| |
+|肌松药（有/无，剂量）| |造影剂总量（mL）| |
+|手术时间（min）| |透视时间（min）| |
+|冠状静脉窦入路（股静脉/颈外静脉）| |预防性硝酸甘油（μg，时间）| |
+
+|消融能量参数|记录|消融能量参数|记录|
+|---|---|---|---|
+|PFA能量档位（低/中/高）| |PFA输出电压（V）| |
+|PFA波形（单相/双相）| |PFA回路（单极/双极）| |
+|PFA脉冲宽度（μs或ns）| |PFA脉冲间隔（μs）| |
+|PFA每串脉冲数| |PFA每次放电脉冲串数| |
+|PFA同步方式| |RF灌注流量（mL/min）| |
+
+|消融参数|间隔上|间隔下|游离壁上|游离壁下|左冠窦|心大静脉|
+|---|---|---|---|---|---|---|
+|局部壁厚（mm）| | | | | | |
+|距冠口/冠脉距离（mm）|—|—|—|—| | |
+|放电次数（PFA）/放电时间（RF，s）| | | | | | |
+|RF功率（W）| | | | | | |
+|PFA实测电压（V）/电流（A）| | | | | | |
+|平均接触力（g）| | | | | | |
+|阻抗变化（Ω）| | | | | | |
+|放电时心律失常（类型/除颤次数）| | | | | | |
+|冠脉事件（有/无，处理）| | | | | | |
+|技术排除（有/无，原因）| | | | | | |
+
+|电生理|间隔上|间隔下|游离壁上|游离壁下|左冠窦|心大静脉|
+|---|---|---|---|---|---|---|
+|基线双极电压（mV）| | | | | | |
+|基线起搏阈值（mA）| | | | | | |
+|消融后30 min电压（mV）| | | | | | |
+|消融后30 min阈值（mA，失夺获记>10）| | | | | | |
+|28天电压（mV）| | | | | | |
+|28天阈值（mA）| | | | | | |
+
+|档位比较点（仅急性PFA组）|低档|中档|高档|
+|---|---|---|---|
+|位点（游离壁中段/下壁/心尖部）| | | |
+|局部壁厚（mm）| | | |
+|输出电压（V）/放电次数| | | |
+|平均接触力（g）| | | |
+|TTC不可逆损伤深度/宽度（mm）| | | |
+
+|瓣膜与冠脉|基线|消融后30 min|28天|
+|---|---|---|---|
+|主动脉瓣反流分级（无/微量/轻/中/重）| | | |
+|肺动脉瓣反流分级| | | |
+|冠脉最大直径狭窄率（%，节段）| | | |
+
+并发症：□无　□室颤（除颤＿次）　□心包积液　□主动脉瓣反流加重　□冠脉闭塞/夹层　□其他＿＿＿
+
+## 附表2　血液指标记录表
+
+动物编号：＿＿＿＿　分组：□急性PFA　□急性RF　□慢性PFA　□慢性RF　手术日期：＿＿＿＿　体重：＿＿＿ kg
+
+|指标（单位）|B0 基线|B1 消融后5–10 min|B2 消融后3 h|术后24 h|术后48 h|术后28 d|
+|---|---|---|---|---|---|---|
+|采血时间（时:分）| | | | | | |
+|溶血指数| | | | | | |
+|游离血红蛋白（mg/dL）| | | | |—| |
+|结合珠蛋白（g/L）| | |—| |—| |
+|乳酸脱氢酶（U/L）| |—| | |—| |
+|总胆红素（μmol/L）| |—|—| |—| |
+|血钾（mmol/L）| | |—|—|—| |
+|肌钙蛋白I（ng/mL）| |—| | |—| |
+|肌酐（μmol/L）| |—|—| | | |
+|尿血红蛋白（−/+）| |—|—| | | |
+|血常规、肝功能（附报告）| |—|—|—|—| |
+
+空格为需填写项，“—”为该时点不检测。急性组仅填写B0、B1、B2。肌钙蛋白I单位以检测平台为准。
